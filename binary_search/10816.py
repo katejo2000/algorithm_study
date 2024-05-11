@@ -48,3 +48,20 @@ for card in cards:
 
 for order in orders:
     print(result[order], end=' ')
+
+
+# from sys import stdin
+# from collections import Counter
+#
+# # 입력
+# _ = stdin.readline()
+# N = stdin.readline().split()
+# _ = stdin.readline()
+# M = stdin.readline().split()
+#
+# # 카드 수 세기
+# C = Counter(N)
+#
+# # 출력
+# print(' '.join(f'{C[m]}' if m in C else '0' for m in M))
+# # 출처: https://develop247.tistory.com/352 [재냥이😻:티스토리]
